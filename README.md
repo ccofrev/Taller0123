@@ -17,7 +17,7 @@ p: selector, selecciona párrafos
 color: asigna color de fuente al párrafo
 font-family: tipo de fuente.
 
-además de un selector, se puede usar id 
+además de un selector, se puede usar id o clase
 
 
 

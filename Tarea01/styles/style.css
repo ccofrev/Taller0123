@@ -1,0 +1,13 @@
+/* Estilos para el header */
+.header {
+    background-color: darkslategrey;
+    padding: 10px;
+}
+
+.bg-body-tertiary{
+    background-color: darkslategrey;
+}
+
+.bg-color{
+    background-color: darkslategrey;
+}

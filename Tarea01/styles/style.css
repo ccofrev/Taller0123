@@ -1,13 +1,23 @@
 /* Estilos para el header */
 .header {
-    background-color: darkslategrey;
+    /* background-color: darkslategrey; */
     padding: 10px;
 }
 
 .bg-body-tertiary{
-    background-color: darkslategrey;
+    /* background-color: darkslategrey; */
 }
 
 .bg-color{
-    background-color: darkslategrey;
+    /* background-color: darkslategrey; */
+}
+
+.celdaTitulo{
+    padding: 20px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.celdasPilares{
+    padding-top: 10px;
 }

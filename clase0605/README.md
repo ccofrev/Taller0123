@@ -29,3 +29,22 @@ antes del modelo de cajas, se hacía el "layout" con "position".
 El layout no se hace con position, se hace con grid u otras.
 El position se usa para ubicar elementos particulares.
 
+**estudiar html "semántico".
+
+si sep pone .nombre clase en vsc te ofrece un div.
+
+o nombre etiqueta.clase y también ofrece autocompletar.
+
+
+*** liveserver es un complomento para autorefrescar el html
+*** prettier es un beautify
+
+LAYOUT
+css tricks buen sitio para CSS 
+acá se revisa flex box.
+
+las etiquetas inline no permiten modificar height y width, pero si se necesita, se puede usar inline-block
+y eso libera propiedades de block.
+ojo que los % son relativos al padre.
+
+si se da un ancho mayor de lo que tiene de espacio, se baja.

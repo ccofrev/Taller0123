@@ -1,0 +1,27 @@
+*{
+    border: 1px solid red;
+}
+
+.contenedor_principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor_secundario{
+    display: flex;
+}
+
+.header-item{
+    flex-grow:1;
+}
+
+.aside-item{
+    flex-grow:1;
+}
+
+.main-item{
+
+}
+
+.footer-item{
+}

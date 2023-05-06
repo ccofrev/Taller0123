@@ -8,3 +8,16 @@
     border: 1px solid green;
     display: inline;
 }
+
+.caja{
+    border: 1px solid black;
+    height: 200px;
+    position: relative;
+}
+
+.icono{
+    width: 100px;
+    position: absolute;
+    top: 20%;
+    right:0;
+}

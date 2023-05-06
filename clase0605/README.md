@@ -23,4 +23,9 @@ sí, con "display". Ej. nav es una etiqueta de bloque por defecto, tiene display
 hay estilos por defecto, el "user agent stylesheet": el navegador setea valores por defecto para los estilos.
 Inicialmente los estilos eran muy distintos dependiendo de los desarrolladores. Pero se han ido estandarizando, según normas de instituciones.
 
+display: cambia el tipo de etiqueta. 
+
+antes del modelo de cajas, se hacía el "layout" con "position". 
+El layout no se hace con position, se hace con grid u otras.
+El position se usa para ubicar elementos particulares.
 

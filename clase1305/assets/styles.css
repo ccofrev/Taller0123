@@ -1,0 +1,30 @@
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    /*height: 100vh;*/ /*pero esto no considera los bordes del body*/
+    height: calc(100vh - 16px); /*el borde es de 8px visto en navegador*/
+}
+
+.layuout__nav{
+    grid-column: 1 / 3;  /*se indica que usen todo el ancho*/
+}
+
+.layuout__header{
+    grid-column: 1 / 3;  /*se indica que usen todo el ancho*/
+}
+
+.layuout__main{
+    grid-column: 1/span1;  /*se usa el ancho de la mitad */
+    grid-row: 3 / 4;
+}
+
+.layuout__aside{
+    grid-column: 2/span2;  /*se usa el ancho de la mitad */
+    grid-row: 3 / 4;
+}
+
+.layuout__footer{
+    grid-column: 1 / 3;  /*se indica que usen todo el ancho*/
+}
+

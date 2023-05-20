@@ -1,4 +1,4 @@
-Clase 20/05
+## Clase 20/05
 
 
 repaso SASS (wena porque me fui temprano la clase anterior)
@@ -61,6 +61,12 @@ git add . //para agregar todo en el nivel actual
 
 git status // indica rama actual, archivos que están en seguimiento, commits ...
 
+git commit -m "acá va el mensaje"
+
+git checkout -b <nombreRama>    //genera una rama o se cambia si ya existe quitando -b
 
 
+git config --local user.name "nombre"
+git config --local user.email "emilio@emilio.com"
+ //hay que identificarse usando flag --local quedará local usando --global quedará global.
 

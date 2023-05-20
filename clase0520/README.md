@@ -26,5 +26,27 @@ cual es la gracia de sass
 -agrega características de un lenguaje de programación
 
 
+la manera de usar varios archivos es iportando en la principal, los "parciales" en otras ubicaciones (hay arquitecturas bien definidas incluso). 
+
+para la clase se usó una "arquitectura" con una carpeta base y una de variables.
+
+en el archivo main solo se importan estos otros dos archivos
+
+variables/_variables.scss
+$principal_color: blue;
+
+base/_base.scss
+h1{color: $principal_color;}
+
+ojo que los parciales se nombran con _ al principio. (pero se importan sin eso y sin extensión.)
+
+main.scss
+@import 'variables/variables'
+@import 'base/base'
+
+acá el main sólo está importando los parciales.
+
+ojo con el orden cuando se usen variables. Como se está usando la variable $principal_color en base, en el main primero debe importarse el archivo de variables y luego el de base, si no, tira un error de variable que no existe.
+
 
 

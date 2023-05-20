@@ -50,3 +50,17 @@ ojo con el orden cuando se usen variables. Como se está usando la variable $pri
 
 
 
+GIT
+
+Sistema de gestión de versiones
+
+comandos
+git init
+git add <nombreArchivo> //agrega el archivo para el seguimiento
+git add . //para agregar todo en el nivel actual
+
+git status // indica rama actual, archivos que están en seguimiento, commits ...
+
+
+
+

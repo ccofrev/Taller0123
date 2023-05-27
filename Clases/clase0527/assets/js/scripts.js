@@ -33,9 +33,42 @@ const miObjeto = {}
 console.log("Objeto:", miObjeto)
 
 miObjeto.saludo = "Hola"
+miObjeto.despedida = "Adios"
 miObjeto.saludar = function (){
     console.log(this.saludo)
 }
+miObjeto.despedir = () => {
+    console.log(miObjeto.despedida)
+}
+miObjeto.lista = [1,2,3,4,5]
 
 console.log("Objeto:", miObjeto)
 miObjeto.saludar()
+miObjeto.despedir()
+console.log("ElementoArreglo", miObjeto.lista[2])
+console.log("UltimoElementoArreglo", miObjeto.lista[miObjeto.lista.length-1])
+
+miObjeto.lista.splice(0,0,0)
+console.log("Arreglo", miObjeto.lista)
+
+const arr = [1,2,3]
+arr[4] = 5
+console.log("ARr", arr)
+
+//// input con prompt
+// const entrada = prompt("Ingrese nombre")
+// console.log("entrada", entrada)
+
+/// tipos y conversiones de número
+let doce = "12"
+console.log("tipo numero", typeof doce)
+console.log("tipo numero", typeof +doce)
+console.log("tipo numero", typeof Number(doce))
+console.log("tipo numero", typeof parseInt(doce))
+
+// tarea
+// notas = [6,8,9,2,5,10]
+// function suma = () => {
+//     for(let n in notas)
+//         suma = suma + n
+// }

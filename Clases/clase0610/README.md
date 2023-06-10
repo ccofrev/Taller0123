@@ -61,3 +61,11 @@ await async
 
 
 *** el operador ternario en javascript si funciona como if, no solo como asignación.
+
+
+
+### Segunda parte
+
+ejercicio
+se pide armar proyecto base con un js
+

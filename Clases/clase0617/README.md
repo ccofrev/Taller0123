@@ -1,36 +1,25 @@
-### Clase 17 de Junio
+### Clase 22 de Junio
 
 Seguimos con JS
 
-A revisar:
-- Métodos
-- Promesas
-- Async / Await
-- API's
-- Métodos HTTP
-- Fetch / Axios
 
-jaja
+se revisó Axios
+para importarlo es distinto si se hace con node o para navegador. 
 
-no se vio nada
-nos quedamos en foreach una hora
-después map una hora más
-filter 5 minutos
-find 
+En navegador se importa con CDN
+en node, hay que instalar axios con
+npm i axios
+
+e importar la librería cuando se usa con 
+import axios from "axios";
+
+CDN se importa en el html con la etiqueta script
 
 
-revisar truthy y falsy (los que no son booleanos estrictos pero se pueden evaluar en condición)
+Luego se muestra como inyectar datos en html
 
-se pasó rapido promesas
-se usará async y await
+se muestra queryselector
+pero solo como referencia.
 
-
-fetch y axios
-
-- fetch porporciona una iterfaz js para acceder manipular partes del canal http, como peticiones
-- axios es un cliente http basado en promesas para node.
-
-
-se usa fetch que al parecer tiene soporte nativo, porque funciona sin importar nada.
-se conecta con api pokemonesss
-
+luego se muestra 
+document.getElementById("nombre_id");
